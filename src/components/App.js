@@ -9,8 +9,8 @@ const App = () => {
 
   return (
     <div id="main">
-      <GoalForm />
-      <ListOfGoals />
+      <GoalForm setAllGoalsProps={setAllGoals} allGoalsProps={allGoals} />
+      <ListOfGoals allGoalsProps={allGoals} />
     </div>
   )
   
